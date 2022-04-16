@@ -1,4 +1,5 @@
+
 AuthType Basic
 AuthName "Password Protected Area"
-AuthUserFile /iddwebsite/.htpassword
-Require Valid.user
+AuthUserFile /.htpassword
+Require valid-user
